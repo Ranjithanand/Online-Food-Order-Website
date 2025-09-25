@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background img */
+
+body{
+    background-image: url(./user-login-images/user\ face\ login\ background\ img.jpg);
+    background-size:cover ;   /* tries to fit the entry pic in the fram*/
+    background-repeat: no-repeat;  /*prevents the repeatation*/
+    background-position: center;   /*positioning the img at center*/
+    height: 100vh;                 /*giving the height for the img */  /*vh = viewport height*/
+    font-family: Arial,sans-serif;
+}
+
+/* container */
+
+.log-in{
+    height: 500px;
+    width: 470px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    left: 530px;
+    top: 130px;
+    border-radius: 15px;
+    opacity: 0.35;
+    background: linear-gradient(to bottom, #e0e0e0, #333333);
+    box-shadow: -10px 10px 7px black; 
+    /* creates shadow effect horizontal ,vertical, shad thickness*/
+}
+
+/* login text */
+
+.login{
+    display: inline-block;
+    font-size: 35px;
+    width: 500px;
+    height: fit-content;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+}
+
+.login >p{
+    font-weight: bolder;
+    color: rgb(8, 0, 0);
+}
+
+/* login-2 */
+
+.login-2{
+    position: fixed;
+    top: 200px;
+    left: 630px;
+    font-family: Arial,sans-serif;
+}
+/* input email */
+
+.input{
+    position: fixed;
+    top: 290px;
+    left: 570px;
+}
+
+.input >.i-1{
+    height: 40px;
+    width: 315px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    font-family: Arial,sans-serif;
+}
+
+.input input{
+    padding-left: 65px;  /*moves the input text inside input */
+    font-size: 18px;
+}
+.i-1::placeholder{
+    font-size: 18px;
+    position: fixed;
+    left: 65px;
+    font-family: Arial,sans-serif;
+}
+
+/* input user img  */
+
+.input img{
+    position: relative;
+    right: 370px;
+    top: 7px;
+}
+
+/* password */
+
+.password{
+    position: fixed;
+    top: 390px;
+    left: 570px;
+}
+
+.password >.i-2{
+    height: 40px;
+    width: 315px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    font-family: Arial,sans-serif;
+}
+
+.password input{
+    padding-left: 65px;  /*moves the input text inside input */
+    font-size: 18px;
+}
+
+.i-2::placeholder{
+    font-size: 18px;
+    position: fixed;
+    left: 65px;
+    font-family: Arial,sans-serif;
+}
+
+/* password img */
+
+.password img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 375px;
+    top: 7px;
+}
+
+/* login-end */
+
+.login-end{
+    height: 35px;
+    width: 200px;
+    background-color: #333333;
+    position:fixed;
+    top: 480px;
+    left: 570px;
+    cursor: pointer;
+}
+
+.login-p{
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* forgot password */
+
+.fg{
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* hovering for forgot password */
+
+.login-end a:hover{
+    text-decoration: underline;
+    width: auto;
+}
+/* footer */
+
+.footer{
+    position: fixed;
+    top: 540px;
+    height: fit-content;
+    width: 470px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+
+/* f-1 */
+
+.f-1{
+    font-size: 20px;
+    color: solid  black;
+}
+
+/* f-2 */
+
+.f-2{
+    font-size: 20px ;
+    color: solid white;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* hovering for register */
+.footer a:hover{
+    text-decoration: underline;
+    width: 100%;
+    background-color:#333333 ;
+}

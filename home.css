@@ -1,0 +1,720 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Gilroy, Arial, sans-serif;
+}
+
+/* nav img */
+
+body{
+    background-image: url(./home\ pagr\ background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    margin-top: 100px;
+    font-family: Gilroy, Arial, sans-serif;
+}
+
+/* navbar */
+.navbar{
+    position: fixed;
+    top: -0px;
+    z-index: 1000;/*tries to be in fixed position */
+    background-color: white;
+    height: 70px;
+    width: 100%;
+}
+
+/* nav-left */
+.nav-left img{
+    width: 150px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+/* nav-mid */
+
+.nav-mid {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    top: -60px;
+    right: 50px;
+    font-size: 18px;
+}
+
+.nav-mid ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-mid li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transform: color 0.32s;
+}
+
+/* nav-right */
+
+.nav-right{
+    background-color: #B0B0B0;
+    color:  #333333;
+    height: 40px;
+    width: 110px;
+    position: relative;
+    bottom: 97px;
+    left: 1000px;
+    border-radius: 10px;
+}
+
+#log-out{
+    background-color: #B0B0B0;
+    color:  #333333;
+    height: 40px;
+    width: 110px;
+    position: relative;
+    bottom: 136px;
+    left: 1150px;
+    border-radius: 10px;
+}
+
+#log-out li a{
+    position: relative;
+    left: 20px;
+    bottom: -10px;
+}
+#log-out li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transform: color 0.32s;
+}
+
+#log-out a:hover{
+    color: #BD9756;
+}
+
+/* #log-out li{
+    background-color: #B0B0B0;
+    color:  #333333;
+    height: 40px;
+    width: 110px;
+    position: relative;
+    bottom: 135px;
+    left: 1150px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#log-out a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color:#333333 ;
+    font-family: Gilroy, Arial, sans-serif;
+} */
+
+.nav-right >img{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+}
+
+.nav-right li a{
+    position: relative;
+    left: 40px;
+    bottom: 23px;
+}
+.nav-right li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transform: color 0.32s;
+}
+
+/* nav-download */
+
+.download{
+    background-color: #B0B0B0;
+    color:  #333333;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    bottom: 175px;
+    left: 1300px;
+    border-radius: 10px;
+}
+
+.download >img{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.download li a{
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+.download li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transform: color 0.32s;
+}
+/*  nav-mid*/
+.nav-mid a:hover{
+    color: #BD9756; /*giving color*/
+}
+
+/* nav-right */
+.nav-right a:hover{
+    color: #BD9756;
+}
+
+/* download */
+
+.download a:hover{
+    color: #BD9756;
+}
+
+
+/* container */
+
+.container{
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 80px;
+    letter-spacing: 10px;
+}
+
+/* container-h1 */
+.container >h1{
+    font-size: 70px;
+}
+
+.container p{
+    height: fit-content;
+    width: 700px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.color{
+    color: #FF5200;
+}
+
+/* search */
+
+.search{
+    position: relative;
+    top: 320px;
+    left: 200px;
+}
+
+/* input */
+
+.search input{
+    height: 40px;
+    width: 900px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.search ::placeholder{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* img of search */
+
+.search img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: -60px;
+    top: 9px;
+}
+
+.search input[type="search"]::-webkit-search-cancel-button {
+    appearance: none; /*helps to eliminate the X mark */
+}
+
+/* options */
+
+.options{
+    position: relative;
+    top: 350px;
+    left: 200px;
+}
+.options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* space between one options  to other*/
+}
+
+.options li a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.options li a:hover {
+  background-color: #f5e6ce;
+}
+
+
+/* filter img */
+.options img{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    left: -35px;
+    top: 4px;
+}
+/* filter */
+
+#options >li a{
+    padding: 8px 20px;
+    padding-right: 40px;
+}
+
+#options.fliter{
+    margin-top: -100px;
+}
+
+/* hotels */
+
+.hotels{
+    margin-top: 400px;
+}
+
+.hotels img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+/* Inspiration for your first order */
+
+.inspiration{
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: 400px;
+    background-color: #e6e2e2 ;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inspiration img{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    top: 150px;
+    right: 10px;
+}
+
+.inspiration >p{
+    font-size: 27px;
+    position: relative;
+    left: 200px;
+    height: fit-content;
+    width: 400px;
+    margin-top: 5px;
+}
+/* food-1 */
+.food-1{
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
+
+ .food-1 >p{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+ }
+
+ /* food-2 */
+
+ .food-2{
+    position: relative;
+    bottom: 100px;
+    right: 160px;
+ }
+
+ .food-2 >p{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+ }
+
+/* food-3 */
+
+ .food-3{
+    position: relative;
+    bottom: 100px;
+    right: 120px;
+ }
+
+ .food-3 >p{
+    position: relative;
+    top: 150px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ /* food-4 */
+.food-4{
+    position: relative;
+    bottom: 100px;
+    right: 90px;
+ }
+
+.food-4 >p{
+    position: relative;
+    top: 150px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ /* food-5 */
+
+.food-5{
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+ }
+
+.food-5 >p{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+
+/* hotel-1 */
+
+.hotel-1{
+    position: absolute;
+    height: 330px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 200px;
+    box-shadow: -5px 5px 5px  gray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* hovering */
+
+.hotel-1:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-1 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-1:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
+
+
+/* hotels*/
+
+.hotels{
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+.hotels h2{
+    font-size: 40px;
+}
+
+/* hotel-1 */
+
+.hotel-1{
+    margin-top: 50px;
+}
+
+.hotel-1 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+/* f-p-1 */
+
+.f-p-1{
+    font-size: 17px;
+    margin-top: 5px;
+    cursor: context-menu;
+}
+
+/* f-p-2 */
+
+.f-p-2{
+    font-size: 17px;
+    margin-top: 5px;
+    cursor: context-menu;
+}
+
+/* add to cart */
+
+.add {
+    height: 30px;
+    font-size: 24px;
+    width: 250px;
+    background-color: #267E3E;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* hotel-2 */
+
+.hotel-2{
+    position: absolute;
+    height: 330px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 50px;
+    box-shadow: -5px 5px 5px  gray;
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-2 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+/* hovering */
+
+.hotel-2:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-2 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-2:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
+
+/* hotel-3 */
+
+.hotel-3{
+    position: absolute;
+    height: 330px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: 50px;
+    box-shadow: -5px 5px 5px  gray;
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-3 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+/* hovering */
+
+.hotel-3:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-3 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-3:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
+
+/* hotel-4 */
+
+.hotel-4{
+    position: absolute;
+    height: 345px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 400px;
+    box-shadow: -5px 5px 5px  gray;
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-4 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+/* hovering */
+
+.hotel-4:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-4 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-4:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
+
+.f-p-2-1{
+    font-size: 17px;
+    margin-top: 5px;
+    height: fit-content;
+    width: 300px;
+    cursor: context-menu;
+}
+
+/* hotel-5 */
+
+.hotel-5{
+    position: absolute;
+    height: 345px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 400px;
+    box-shadow: -5px 5px 5px  gray;
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-5 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+/* hovering */
+
+.hotel-5:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-5 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-5:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
+
+/* hotel-6 */
+.hotel-6{
+    position: absolute;
+    height: 345px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: 400px;
+    box-shadow: -5px 5px 5px  gray;
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.hotel-6 >h3{
+    font-size: 23px;
+    padding-top: 5px;
+    cursor: context-menu;
+}
+
+
+/* hovering */
+
+.hotel-6:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-6 .card .f-p-1 .f-p-2 .add {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-6:hover .card .f-p-1 .f-p-2 .add {
+  transform: scale(2.10);
+}
